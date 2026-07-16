@@ -9,10 +9,10 @@ import SwiftUI
 
 struct HoriVerticaScrollTask: View {
     var body: some View {
-        let columns = [
-            GridItem(.flexible(), spacing: 5),
-            GridItem(.flexible(), spacing: 5)
-        ]
+//        let columns = [
+//            GridItem(.flexible(), spacing: 5),
+//            GridItem(.flexible(), spacing: 5)
+//        ]
         
         ScrollView(.vertical, showsIndicators: false) {
                     
