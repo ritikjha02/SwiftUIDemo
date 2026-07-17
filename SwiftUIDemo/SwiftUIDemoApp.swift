@@ -37,7 +37,10 @@ struct SwiftUIDemoApp: App {
           //  Home1()
             
            // HomeNavigationView()
-            AssignmentTask1()
+           // AssignmentTask1()
+            
+           // MultipleDataPass1()
+            FinalDataPass1()
         }
     }
 }
