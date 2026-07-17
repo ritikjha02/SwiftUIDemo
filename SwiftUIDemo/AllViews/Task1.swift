@@ -39,10 +39,14 @@ struct Task1: View {
             .cornerRadius(24)
             .padding(.horizontal)
         }
-        
     }
 }
 
 #Preview {
     Task1()
 }
+/*
+ 
+ 
+ 
+ */

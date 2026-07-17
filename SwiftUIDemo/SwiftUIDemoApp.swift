@@ -32,7 +32,12 @@ struct SwiftUIDemoApp: App {
            // SignupForm()
            // ForEachView()
            // VerticalListTask1()
-            Horizental2Part()
+           // Horizental2Part()
+            
+          //  Home1()
+            
+           // HomeNavigationView()
+            AssignmentTask1()
         }
     }
 }
