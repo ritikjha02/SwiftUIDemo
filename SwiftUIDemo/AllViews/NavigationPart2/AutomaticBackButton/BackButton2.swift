@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct BackButton2: View {
+    
+    @Environment(\.dismiss) var dismiss
+    
     var body: some View {
        
         VStack{
@@ -16,6 +19,32 @@ struct BackButton2: View {
                 .fontWeight(.semibold)
         }
         .navigationTitle("Profile")
+        
+        // ye jo bottom ka code hai n wo back button hide krne ka code hai..
+        .navigationBarBackButtonHidden(true)
+        .toolbar {
+
+            ToolbarItem(placement: .topBarLeading) {
+
+                Button {
+
+                    dismiss()
+
+                } label: {
+
+                    HStack {
+
+                        Image(systemName: "chevron.left")
+
+                        Text("Back")
+
+                    }
+
+                }
+
+            }
+
+        }
     }
 }
 
