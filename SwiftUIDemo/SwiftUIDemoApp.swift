@@ -40,7 +40,9 @@ struct SwiftUIDemoApp: App {
            // AssignmentTask1()
             
            // MultipleDataPass1()
-            FinalDataPass1()
+           // FinalDataPass1()
+//            AlertView()
+            //ConfirmationDialogView()
         }
     }
 }
